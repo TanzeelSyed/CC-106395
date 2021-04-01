@@ -7,4 +7,4 @@ StdID | Name
 <!-- Replace name and student ids with acutally group member names and ids-->
 
 ## Description ##
-This repository contains assignments and project submitted to CC course offered in Spring 2020 at PafKiet.
+This repository contains assignments/project submitted to CC course offered in Spring 2021 at PafKiet.
