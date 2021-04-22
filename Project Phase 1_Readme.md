@@ -15,7 +15,8 @@ Each MiniJava programme consists of a single file with no package declarations o
 There are no interface classes, subclasses, or nested classes in the classes, making them simple and easy to understand.
 
 ## Sample Code 01 ##
-  class kiet {
+       
+       class kiet {
        public static void main(String[] a)
        {
                System.out.println(“Sir Farooq teaching us Compiler contruction");
