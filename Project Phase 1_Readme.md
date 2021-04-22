@@ -51,7 +51,7 @@ A series of letters, underscores, and digits that starts with an underscore or a
 
 The tokens in bold in the grammar classification are keywords or operators. The exceptions are Main, String, System, Out, and Println. They are identifiers rather than keywords.
 
- • Integral Literals:
+ **• Integral Literals:**
  
 The numeric integer literal is a digit sequence that begins with any one of the digits 1 through 9 and concludes with any digits from 0 to 9. As an integer literal, a single 0 can also be used.
 
