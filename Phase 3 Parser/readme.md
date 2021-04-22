@@ -17,20 +17,23 @@ We select Minijava for design parser. In essence, the minijava language is a m
 
 ## Implementation
 
-class BS{
+```java
+`
+```MiniJava
+class BubbleSort{
     public static void main(String[] a){
 	System.out.println(new BBS().Start(10));
     }
 }
 
 
-// The class includes the list of integer and methods for starting, printing and sorting the array using Bubblesort
+// This class contains the array of integers and methods to initialize, print and sort the array using Bublesort
 class BS{
     
     int[] number ;
     int size ;
 
-    // Call on methods of initialisation, sorting and printing
+    // Invoke the Initialization, Sort and Printing Methods
     public int Start(int b){
 	int aux01 ;
 	aux01 = this.Init(b);
@@ -42,7 +45,7 @@ class BS{
     }
 
  
-    // Order the whole collection by Bublesort process.
+    // Sort array of integers using Bublesort method
     public int Sort(){
 	int nt ;
 	int i ;
@@ -57,7 +60,7 @@ class BS{
 	aux02 = 0 - 1 ;
 	while (aux02 < i) {
 	    j = 1 ;
-	    
+	    //aux03 = i+1 ;
 	    while (j < (i+1)){
 		aux07 = j - 1 ;
 		aux04 = number[aux07] ;
@@ -76,7 +79,7 @@ class BS{
 	return 0 ;
     }
 
-    // Print
+    // Printing
     public int Print(){
 	int j ;
 	j = 0 ;
@@ -87,21 +90,21 @@ class BS{
 	return 0 ;
     }
     
-    // Initializing
+    // Initializing array of integers
     public int Init(int b){
 	size = b ;
 	number = new int[b] ;
 	
-	number[0] = 1 ;
-	number[1] = 19  ; 
-	number[2] = 14 ;
-	number[3] = 13 ;
-	number[4] = 6 ; 
-	number[5] = 3 ;
-	number[6] = 2  ; 
-	number[7] = 4  ; 
-	number[8] = 5 ; 
-	number[9] = 8  ;
+	number[0] = 4 ;
+	number[1] = 20  ; 
+	number[2] = 12 ;
+	number[3] = 16 ;
+	number[4] = 10 ; 
+	number[5] = 1 ;
+	number[6] = 6  ; 
+	number[7] = 9  ; 
+	number[8] = 2 ; 
+	number[9] = 5  ;
 	
 	return 0 ;	
     }
