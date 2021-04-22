@@ -41,4 +41,48 @@ There are no interface classes, subclasses, or nested classes in the classes, ma
     }
     
  ## Lexical Specifications ##
-    • Identifier:
+  
+ **• Identifier:**
+    
+A series of letters, underscores, and digits that starts with an underscore or a letter and continues with any number of letters, underscores, or digits is referred to as an identifier. Only the letters A to Z and a to z are allowed, with case being the most important factor. IDENTs aren't the same as keywords.
+
+**• Operators and Keywords:**
+
+The tokens in bold in the grammar classification are keywords or operators. The exceptions are Main, String, System, Out, and Println. They are identifiers rather than keywords.
+
+ • Integral Literals:
+ 
+The numeric integer literal is a digit sequence that begins with any one of the digits 1 through 9 and concludes with any digits from 0 to 9. As an integer literal, a single 0 can also be used.
+
+**• White Spaces and Comments:**
+ 
+ White space includes things like space, new line, carriage return. While tabulator and The string /* is followed by any characters before the terminating / in a comment. Any subsequent / within a statement will be ignored; a comment will always end when the first */ is identified.
+ 
+**Literals/identifiers/operators/Punctuations**
+NUMBER =""
+
+IDENTIFIER = ""
+
+PLUS ="+"
+
+MINUS ="-"
+
+BECOMES = "="
+
+INTO = "*"
+
+DIVISION ="/"
+
+AND ="&&"
+
+OR ="||"
+
+GTHAN = ">"
+
+LTHAN = "<"
+
+EQUALS = "=="
+
+NEQUALS = "! ="
+
+
