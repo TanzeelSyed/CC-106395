@@ -93,6 +93,60 @@ SEMICOLON = ";"
 
 DOT ="."
 
+**Keywords**
+
+VOID ="void"
+
+WHILE ="while"
+
+TRUE ="true"
+
+RETURN ="return"
+
+PUBLIC ="public"
+
+THIS ="this"
+
+STATIC ="static"
+
+PRIVATE ="private"
+
+INT =”int”
+
+NEW ="new"
+
+NULL ="null"
+
+BOOLEAN=”boolean”
+
+CLASS ="class"
+
+IF ="if"
+
+ELSE ="else"
+
+**Tokens and brackets**
+
+EOT = "$"
+
+ERRORS = ""
+
+ERROR COMMENTS = "<unclosed_comments>"
+
+WHITESPEACES = " "
+
+RBRACKET = "]"
+
+LCURLY = "{"
+
+RCURLY = "}"
+
+LPAREN = "("
+
+RPAREN = ")"
+
+LBRACKET = "["
+
 ## Context Free Grammar (CFG) ##
 
 • A CFG is a set of A -> X1X2... Xn (n 0) outputs. We may write either A-> or A -> if n is equal to 0.
