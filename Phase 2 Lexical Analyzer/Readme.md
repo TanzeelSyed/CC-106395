@@ -6,8 +6,7 @@ StdID | Name
 <!-- Replace name and student ids with acutally group member names and ids-->
 
 
-
-##MiniJava Rules for Lexical Analyzer##
+## MiniJava Rules for Lexical Analyzer ##
 
 %{
 
