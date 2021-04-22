@@ -16,17 +16,14 @@ Compiler analysis is an effective tool to get acquainted with systematic methods
 We select Minijava for design parser. In essence, the minijava language is a more condensed and updated version of java. It is a programming language based on the Java language of Sun Microsystems. The heart of MiniJava is a condense version of the standard Java release to relieve fears that starting people feel in the face of a Java environment that is too complex. The purpose of a MiniJava program is determined by its significance in Java. Any MiniJava program is a Java program that completely works according to Java semanticization. It supports classes and minimal heritage, basic types of data and a few hierarchical control builders. MiniJava program is a single file with no package statement or imports. It consists of a Java class or more. There are no interface classes, sub-classes or nested classes in the classes that are basic and fast.
 
 ## BubbleSort Implementation in MiniJava Language
-```java
-`
-```MiniJava
-class BubbleSort{
+class BS{
     public static void main(String[] a){
 	System.out.println(new BBS().Start(10));
     }
 }
 
 
-// This class contains the array of integers and methods to initialize, print and sort the array using Bublesort
+// The class includes the list of integer and methods for starting, printing and sorting the array using Bubblesort
 class BS{
     
     int[] number ;
