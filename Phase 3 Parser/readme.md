@@ -224,107 +224,6 @@ ERROR COMMENTS = "<unclosed_comments>"
 
 WHITESPEACES = " "
 
-### Grammar
-
-Program → ClassDeclaration*
-
-ClassDeclaration → class IDENT(extends IDENT)? { ClassMember * }
-
-ClassMember → Field | Method | MainMethod
-
-Field → public Type IDENT ;
-
-MainMethod → public static void main ( String [ ] IDENT ) Block
-
-Method → public Type IDENT ( Parameters? ) Block
-
-Parameters → Parameter | Parameter , Parameters
-
-Parameter → Type IDENT
-
-Type → int | boolean | void | IDENT
-
-Statement → Block
-
-| EmptyStatement
-
-| IfStatement
-
-PrintStatement
-
-| ExpressionStatement
-
-| WhileStatement
-
-| ReturnStatement
-
-Block → { BlockStatement* }
-
-BlockStatement → Statement | LocalVariableDeclarationStatement
-
-LocalVariableDeclarationStatement → Type IDENT(= Expression)? ;
-
-EmptyStatement → ;
-
-WhileStatement → while ( Expression ) Statement
-
-IfStatement → if ( Expression ) Statement(else Statement)?
-
-PrintStatement → PrintStatementHead . println ( Expression ) ;
-
-PrintStatementHead → ( PrintStatementHead ) | System . out
-
-ExpressionStatement → Expression ;
-
-ReturnStatement → return Expression? ;
-
-Expression → AssignmentExpression
-
-AssignmentExpression → LogicalOrExpression(= AssignmentExpression)?
-
-LogicalOrExpression → (LogicalOrExpression ||)? LogicalAndExpression
-
-LogicalAndExpression → (LogicalAndExpression &&)? EqualityExpression
-
-EqualityExpression → (EqualityExpression(== | !=))? RelationalExpression
-
-RelationalExpression → (RelationalExpression(< | <= | > | >=))?
-
-AdditiveExpression → (AdditiveExpression(+ | -))?
-
-MultiplicativeExpression → (MultiplicativeExpression(* | / | %))?
-
-UnaryExpression → PrimaryExpression | (! | -)
-
-PrimaryExpression → null
-
-| false
-
-| true
-
-| INTEGER_LITERAL
-
-| MethodInvocationExpression
-
-| FieldAccessExpression
-
-| LocalVariableReferenceExpression
-
-| this
-
-| ( Expression )
-
-| NewObjectExpression
-
-MethodInvocationExpression → (PrimaryExpression .)?    IDENT(ExpressionList?)
-
-ExpressionList → Expression(, Expression)\*
-
-FieldAccessExpression → (PrimaryExpression .)? IDENT
-
-LocalVariableReferenceExpression → IDENT
-
-NewObjectExpression → new IDENT ( )
 
 # Problems Faced
 
@@ -334,7 +233,7 @@ These are the following problems that we have faced in our project.
 So before this project both of us had zero knowledge about java. Our domain area is react native (javaScript) but we though that why not give it a shot and do something that we haven't done before. So we decided to take up on MiniJava as it's a smaller component of Java language. Initially we had many difficulties like we didn't knew how it works, how can we declare variable and methods, its syntax and so many things like this. But once we learned and got basic knowledge about it then we had no such difficulty. 
 
 ## Problem 2: Github
-So I (Rohma) didn't knew how to use this platform Github as none of our teacher asked to submit projects on Github so it was my first time using it. Initially i didn't knew how to make repositiories and such things. I had very difficulties in formatting the content in Files and making repository etc. but my other group member had hands on it so he helped in using this platform. And now i have learned how to use Github.  
+didn't knew how to use this platform Github as none of our teacher asked to submit projects on Github so it was my first time using it. Initially i didn't knew how to make repositiories and such things. I had very difficulties in formatting the content in Files and making repository etc. but my other group member had hands on it so he helped in using this platform. And now i have learned how to use Github.  
 
 ## Problem 3: Installation of Flex in Linux
 When we created our lexical analyzer we had many issues in its compilation. Our lex file wasn't created because of installation issues in linux, so after trying so many times finally we got succeed.
