@@ -1,4 +1,4 @@
-## CC 106395: MINIJAVA LEXICAL ANALYZER & PARSER
+## PARSER ##
 <!-- Replace XX with your course ID-->
 ## PROJECT MEMBERS 
 StdID | Name
