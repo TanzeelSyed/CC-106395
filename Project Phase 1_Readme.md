@@ -60,6 +60,7 @@ The numeric integer literal is a digit sequence that begins with any one of the 
  White space includes things like space, new line, carriage return. While tabulator and The string /* is followed by any characters before the terminating / in a comment. Any subsequent / within a statement will be ignored; a comment will always end when the first */ is identified.
  
 **Literals/identifiers/operators/Punctuations**
+
 GTHAN = ">"
 
 LTHAN = "<"
