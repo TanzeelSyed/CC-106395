@@ -26,6 +26,20 @@ class BS{
 // The class includes the list of integer and methods for starting, printing and sorting the array using Bubblesort
 class BS{
     
+    ## BubbleSort Implementation in MiniJava Language
+```java
+`
+```MiniJava
+class BubbleSort{
+    public static void main(String[] a){
+	System.out.println(new BBS().Start(10));
+    }
+}
+
+
+// This class contains the array of integers and methods to initialize, print and sort the array using Bublesort
+class BS{
+    
     int[] number ;
     int size ;
 
@@ -107,7 +121,6 @@ class BS{
 
 }
 ````
-
 ## Lexical Specification
 
 The following are the lexical specifications found in MiniJava Language:
