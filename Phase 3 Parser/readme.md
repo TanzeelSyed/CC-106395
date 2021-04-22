@@ -6,9 +6,10 @@ StdID | Name
 **60790** | **Syed Muhammad Tanzeel** 
 61574 | Muhammad Hassam Uddin
 
-## Project Description 
+## About Project ##
 
-The main aim of this project was to understand the importance of compiler. Being a computer science student it is important to how to use a compiler and what is going on inside the tool that we are using. It enables us to design and implement our own domain-specific language. The compiler design allows use of formal methods that are rarely seen anywhere. The analysis of compilers is a good way to get started with formal methods. So by studying compiler we can learn alot of things. And that's the aim of our project also we learned how to use a subset of large language, its specifications and CFG. Also learned how with the help of lexicial specifications we can make a lexical analyzer and design a parser. 
+The primary goal of this project was to comprehend the significance of a compiler. It is  important to understand how to use a compiler and what goes on inside the tool we're using. It provides the ability to create and deploy our own domain-specific language. The compiler's architecture allows for the use of formal methods that are seldom used in other programming languages.
+Compiler analysis is an effective tool to get acquainted with systematic methods. As a way, studying compiler will give us a lot. That was also the aim of our project; we learned how to use a subset of a broad language, as well as its specifications and CFG. We also learned how to build a lexical analyzer and build a parser using lexical specifications.
 
 ## Sample Language Used 
 
