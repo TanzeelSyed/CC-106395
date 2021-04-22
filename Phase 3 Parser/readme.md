@@ -3,8 +3,8 @@
 ## PROJECT MEMBERS 
 StdID | Name
 ------------ | -------------
-**62708** | **BILAL KHAN** 
-62648 | ROHMA ZAHID
+**60790** | **Syed Muhammad Tanzeel** 
+61574 | Muhammad Hassam Uddin
 
 ## Project Description 
 
