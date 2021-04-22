@@ -59,24 +59,6 @@ The numeric integer literal is a digit sequence that begins with any one of the 
  White space includes things like space, new line, carriage return. While tabulator and The string /* is followed by any characters before the terminating / in a comment. Any subsequent / within a statement will be ignored; a comment will always end when the first */ is identified.
  
 **Literals/identifiers/operators/Punctuations**
-NUMBER =""
-
-IDENTIFIER = ""
-
-PLUS ="+"
-
-MINUS ="-"
-
-BECOMES = "="
-
-INTO = "*"
-
-DIVISION ="/"
-
-AND ="&&"
-
-OR ="||"
-
 GTHAN = ">"
 
 LTHAN = "<"
@@ -84,5 +66,40 @@ LTHAN = "<"
 EQUALS = "=="
 
 NEQUALS = "! ="
+
+NUMBER =""
+
+IDENTIFIER = ""
+
+PLUS ="+"
+
+DIVISION ="/"
+
+AND ="&&"
+
+OR ="||"
+
+MINUS ="-"
+
+BECOMES = "="
+
+INTO = "*"
+
+COMMA = ","
+
+SEMICOLON = ";"
+
+DOT ="."
+
+## Context Free Grammar (CFG) ##
+
+• A CFG is a set of A -> X1X2... Xn (n 0) outputs. We may write either A-> or A -> if n is equal to 0.
+
+• T stands for tokens, which are also known as terminals.
+
+• N, the non-terminal series (A, B, C... ). In grammar, the start symbol is a non-terminal.
+
+• Productions A, A..., abbreviated A | |...
+
 
 
