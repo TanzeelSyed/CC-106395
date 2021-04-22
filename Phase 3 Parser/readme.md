@@ -111,46 +111,25 @@ class BS{
 
 }
 ````
-## Lexical Specification
+## Lexical Specifications ##
+  
+ **• Identifier:**
+    
+A series of letters, underscores, and digits that starts with an underscore or a letter and continues with any number of letters, underscores, or digits is referred to as an identifier. Only the letters A to Z and a to z are allowed, with case being the most important factor. IDENTs aren't the same as keywords.
 
-The following are the lexical specifications found in MiniJava Language:
+**• Operators and Keywords:**
 
-##### • White Spaces:
-Space, new line, carriage return, and tabulator are examples of white space.
+The tokens in bold in the grammar classification are keywords or operators. The exceptions are Main, String, System, Out, and Println. They are identifiers rather than keywords.
 
-##### • Comments:
-A comment is described as the string /* followed by any characters until the terminating /. Comments cannot be nested, and any subsequent / inside a comment would be ignored; a comment will always end when the first */ is detected.
+ **• Integral Literals:**
+ 
+The numeric integer literal is a digit sequence that begins with any one of the digits 1 through 9 and concludes with any digits from 0 to 9. As an integer literal, a single 0 can also be used.
 
-##### • Keywords: and operators:
-In the grammar classification, all tokens in bold are keywords or operators. Main, String, System, Out, and Println are all exceptions. They are not keywords, but rather identifiers.
-
-##### • Integer Literals:
-A numeric integer literal is a digit sequence that starts with any digit from 1 to 9 and ends with any number of digits from 0 to 9. A single 0 can be used as an integer literal as well.
-
-##### • Identifier:
-An identifier is a string of letters, underscores, and digits that begins with an underscore or a letter and continues with any number of letters, underscores, or digits. Only the letters A to Z and a to z are permitted, with case being crucial. IDENTs are not keywords.
-
-# LEXICAL TOKENS
-
-### Literals/identifiers/operators
-
-NUMBER =""
-
-IDENTIFIER = ""
-
-PLUS ="+"
-
-MINUS ="-"
-
-BECOMES = "="
-
-INTO = "*"
-
-DIVISION ="/"
-
-AND ="&&"
-
-OR ="||"
+**• White Spaces and Comments:**
+ 
+ White space includes things like space, new line, carriage return. While tabulator and The string /* is followed by any characters before the terminating / in a comment. Any subsequent / within a statement will be ignored; a comment will always end when the first */ is identified.
+ 
+**Literals/identifiers/operators/Punctuations**
 
 GTHAN = ">"
 
@@ -160,29 +139,31 @@ EQUALS = "=="
 
 NEQUALS = "! ="
 
-### Punctuations
+NUMBER =""
 
-DOT ="."
+IDENTIFIER = ""
+
+PLUS ="+"
+
+DIVISION ="/"
+
+AND ="&&"
+
+OR ="||"
+
+MINUS ="-"
+
+BECOMES = "="
+
+INTO = "*"
 
 COMMA = ","
 
 SEMICOLON = ";"
 
-### Reserved Words
+DOT ="."
 
-BOOLEAN=”boolean”
-
-CLASS ="class"
-
-IF ="if"
-
-ELSE ="else"
-
-INT =”int”
-
-NEW ="new"
-
-NULL ="null"
+**Keywords**
 
 VOID ="void"
 
@@ -200,21 +181,21 @@ STATIC ="static"
 
 PRIVATE ="private"
 
-### Brackets
+INT =”int”
 
-LPAREN = "("
+NEW ="new"
 
-RPAREN = ")"
+NULL ="null"
 
-LBRACKET = "["
+BOOLEAN=”boolean”
 
-RBRACKET = "]"
+CLASS ="class"
 
-LCURLY = "{"
+IF ="if"
 
-RCURLY = "}"
+ELSE ="else"
 
-### Special Tokens
+**Tokens and brackets**
 
 EOT = "$"
 
@@ -223,6 +204,18 @@ ERRORS = ""
 ERROR COMMENTS = "<unclosed_comments>"
 
 WHITESPEACES = " "
+
+RBRACKET = "]"
+
+LCURLY = "{"
+
+RCURLY = "}"
+
+LPAREN = "("
+
+RPAREN = ")"
+
+LBRACKET = "["
 
 ### Grammar
 
