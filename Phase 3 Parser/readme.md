@@ -15,7 +15,8 @@ Compiler analysis is an effective tool to get acquainted with systematic methods
 
 We select Minijava for design parser. In essence, the minijava language is a more condensed and updated version of java. It is a programming language based on the Java language of Sun Microsystems. The heart of MiniJava is a condense version of the standard Java release to relieve fears that starting people feel in the face of a Java environment that is too complex. The purpose of a MiniJava program is determined by its significance in Java. Any MiniJava program is a Java program that completely works according to Java semanticization. It supports classes and minimal heritage, basic types of data and a few hierarchical control builders. MiniJava program is a single file with no package statement or imports. It consists of a Java class or more. There are no interface classes, sub-classes or nested classes in the classes that are basic and fast.
 
-## BubbleSort Implementation in MiniJava Language
+## Implementation
+
 class BS{
     public static void main(String[] a){
 	System.out.println(new BBS().Start(10));
@@ -26,24 +27,10 @@ class BS{
 // The class includes the list of integer and methods for starting, printing and sorting the array using Bubblesort
 class BS{
     
-    ## BubbleSort Implementation in MiniJava Language
-```java
-`
-```MiniJava
-class BubbleSort{
-    public static void main(String[] a){
-	System.out.println(new BBS().Start(10));
-    }
-}
-
-
-// This class contains the array of integers and methods to initialize, print and sort the array using Bublesort
-class BS{
-    
     int[] number ;
     int size ;
 
-    // Invoke the Initialization, Sort and Printing Methods
+    // Call on methods of initialisation, sorting and printing
     public int Start(int b){
 	int aux01 ;
 	aux01 = this.Init(b);
@@ -55,7 +42,7 @@ class BS{
     }
 
  
-    // Sort array of integers using Bublesort method
+    // Order the whole collection by Bublesort process.
     public int Sort(){
 	int nt ;
 	int i ;
@@ -70,7 +57,7 @@ class BS{
 	aux02 = 0 - 1 ;
 	while (aux02 < i) {
 	    j = 1 ;
-	    //aux03 = i+1 ;
+	    
 	    while (j < (i+1)){
 		aux07 = j - 1 ;
 		aux04 = number[aux07] ;
@@ -89,7 +76,7 @@ class BS{
 	return 0 ;
     }
 
-    // Printing
+    // Print
     public int Print(){
 	int j ;
 	j = 0 ;
@@ -100,46 +87,67 @@ class BS{
 	return 0 ;
     }
     
-    // Initializing array of integers
+    // Initializing
     public int Init(int b){
 	size = b ;
 	number = new int[b] ;
 	
-	number[0] = 4 ;
-	number[1] = 20  ; 
-	number[2] = 12 ;
-	number[3] = 16 ;
-	number[4] = 10 ; 
-	number[5] = 1 ;
-	number[6] = 6  ; 
-	number[7] = 9  ; 
-	number[8] = 2 ; 
-	number[9] = 5  ;
+	number[0] = 1 ;
+	number[1] = 19  ; 
+	number[2] = 14 ;
+	number[3] = 13 ;
+	number[4] = 6 ; 
+	number[5] = 3 ;
+	number[6] = 2  ; 
+	number[7] = 4  ; 
+	number[8] = 5 ; 
+	number[9] = 8  ;
 	
 	return 0 ;	
     }
 
 }
 ````
-## Lexical Specifications ##
-  
-**• Identifier:**
-    
-A series of letters, underscores, and digits that starts with an underscore or a letter and continues with any number of letters, underscores, or digits is referred to as an identifier. Only the letters A to Z and a to z are allowed, with case being the most important factor. IDENTs aren't the same as keywords.
+## Lexical Specification
 
-**• Operators and Keywords:**
+The following are the lexical specifications found in MiniJava Language:
 
-The tokens in bold in the grammar classification are keywords or operators. The exceptions are Main, String, System, Out, and Println. They are identifiers rather than keywords.
+##### • White Spaces:
+Space, new line, carriage return, and tabulator are examples of white space.
 
- **• Integral Literals:**
- 
-The numeric integer literal is a digit sequence that begins with any one of the digits 1 through 9 and concludes with any digits from 0 to 9. As an integer literal, a single 0 can also be used.
+##### • Comments:
+A comment is described as the string /* followed by any characters until the terminating /. Comments cannot be nested, and any subsequent / inside a comment would be ignored; a comment will always end when the first */ is detected.
 
-**• White Spaces and Comments:**
- 
- White space includes things like space, new line, carriage return. While tabulator and The string /* is followed by any characters before the terminating / in a comment. Any subsequent / within a statement will be ignored; a comment will always end when the first */ is identified.
- 
-**Literals/identifiers/operators/Punctuations**
+##### • Keywords: and operators:
+In the grammar classification, all tokens in bold are keywords or operators. Main, String, System, Out, and Println are all exceptions. They are not keywords, but rather identifiers.
+
+##### • Integer Literals:
+A numeric integer literal is a digit sequence that starts with any digit from 1 to 9 and ends with any number of digits from 0 to 9. A single 0 can be used as an integer literal as well.
+
+##### • Identifier:
+An identifier is a string of letters, underscores, and digits that begins with an underscore or a letter and continues with any number of letters, underscores, or digits. Only the letters A to Z and a to z are permitted, with case being crucial. IDENTs are not keywords.
+
+# LEXICAL TOKENS
+
+### Literals/identifiers/operators
+
+NUMBER =""
+
+IDENTIFIER = ""
+
+PLUS ="+"
+
+MINUS ="-"
+
+BECOMES = "="
+
+INTO = "*"
+
+DIVISION ="/"
+
+AND ="&&"
+
+OR ="||"
 
 GTHAN = ">"
 
@@ -149,31 +157,29 @@ EQUALS = "=="
 
 NEQUALS = "! ="
 
-NUMBER =""
+### Punctuations
 
-IDENTIFIER = ""
-
-PLUS ="+"
-
-DIVISION ="/"
-
-AND ="&&"
-
-OR ="||"
-
-MINUS ="-"
-
-BECOMES = "="
-
-INTO = "*"
+DOT ="."
 
 COMMA = ","
 
 SEMICOLON = ";"
 
-DOT ="."
+### Reserved Words
 
-**Keywords**
+BOOLEAN=”boolean”
+
+CLASS ="class"
+
+IF ="if"
+
+ELSE ="else"
+
+INT =”int”
+
+NEW ="new"
+
+NULL ="null"
 
 VOID ="void"
 
@@ -191,21 +197,21 @@ STATIC ="static"
 
 PRIVATE ="private"
 
-INT =”int”
+### Brackets
 
-NEW ="new"
+LPAREN = "("
 
-NULL ="null"
+RPAREN = ")"
 
-BOOLEAN=”boolean”
+LBRACKET = "["
 
-CLASS ="class"
+RBRACKET = "]"
 
-IF ="if"
+LCURLY = "{"
 
-ELSE ="else"
+RCURLY = "}"
 
-**Tokens and brackets**
+### Special Tokens
 
 EOT = "$"
 
@@ -214,18 +220,6 @@ ERRORS = ""
 ERROR COMMENTS = "<unclosed_comments>"
 
 WHITESPEACES = " "
-
-RBRACKET = "]"
-
-LCURLY = "{"
-
-RCURLY = "}"
-
-LPAREN = "("
-
-RPAREN = ")"
-
-LBRACKET = "["
 
 ### Grammar
 
