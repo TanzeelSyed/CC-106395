@@ -91,7 +91,7 @@ typedef unsigned int flex_uint32_t;
 
 #endif /* ! FLEXINT_H */
 
-/* start standard C++ headers. */
+/*standard C++ headers. */
 
 /* Since this is often specified, it should be inlined. */
 #define yyconst const
@@ -105,7 +105,7 @@ typedef unsigned int flex_uint32_t;
 /* Returned upon end-of-file. */
 #define YY_NULL 0
 
-/* Converts a probably negative, possibly signed char to an integer in the range [0..255] that can be used as an array index.*/
+/* Converts a possibly negative, possibly signed char to an array indexable integer in the range [0..255].*/
 #define YY_SC_TO_UI(c) ((YY_CHAR) (c))
 
 /* Define a starting condition. This macro should really take a parameter, 
