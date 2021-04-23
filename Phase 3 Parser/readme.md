@@ -27,7 +27,7 @@ class BS{
 }
 
 
-// The class includes the list of integer and methods for starting, printing and sorting the array using Bublesort
+// The class includes the list of integer and methods for starting, printing and sorting the array using Bubblesort algo
 class BS{
     
     int[] number ;
@@ -45,7 +45,7 @@ class BS{
     }
 
  
-    // Order the whole collection by Bublesort process.
+    // Order the whole collection
     public int Sort(){
 	int nt ;
 	int i ;
