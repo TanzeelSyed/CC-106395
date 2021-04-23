@@ -222,13 +222,123 @@ ERROR COMMENTS = "<unclosed_comments>"
 
 WHITESPEACES = " "
 
-## What Issues we faced? ##
+## Problems Faced ##
 
-## Issue: Not Much Familar with Java:
+## Problem 1: Not Much Familar with Java: ##
 We faced several issues during performing this project because we are not familar much about Java and Mini Java but we tried our best to do this. We took help to our seniors to perform this project. The reason behind selection of this language i can say that the concepts of Java are much easier which are relatable too. An object oriented property makes it a flexible, system modular, and extensible programming language.
 
-## Issue: Yacc Problems:
+## Problem 2: Yacc Problems: ##
 It is very difficult to work on Yacc because facing a lots of error and we are working very first time on it. Not much content available on internet to solve error issues of Yacc. somehow we managed to solve all those errors but still things are lacking we did our best enough to work on this platform.
 
-## Issue: Flex Problems:
+## Problem 3: Flex Problems: ##
 What to do with error handling, and how to make it all work together. Working on flex, also became a nightmare for us. No clue, no info and not much enough content available on internet to resolve things but trying our best to manage things, asking with seniors to solve the issue and watching tutorials on youtube.
+
+## Grammer ##
+Program → ClassDeclaration*
+
+ClassDeclaration → class IDENT(extends IDENT)? { ClassMember * }
+
+ClassMember → Field | Method | MainMethod
+
+Field → public Type IDENT ;
+
+MainMethod → public static void main ( String [ ] IDENT ) Block
+
+Method → public Type IDENT ( Parameters? ) Block
+
+Parameters → Parameter | Parameter , Parameters
+
+Parameter → Type IDENT
+
+Type → int | boolean | void | IDENT
+
+Statement → Block
+
+| EmptyStatement
+
+| IfStatement
+
+PrintStatement
+
+| ExpressionStatement
+
+| WhileStatement
+
+| ReturnStatement
+
+Block → { BlockStatement* }
+
+BlockStatement → Statement | LocalVariableDeclarationStatement
+
+LocalVariableDeclarationStatement → Type IDENT(= Expression)? ;
+
+EmptyStatement → ;
+
+WhileStatement → while ( Expression ) Statement
+
+IfStatement → if ( Expression ) Statement(else Statement)?
+
+PrintStatement → PrintStatementHead . println ( Expression ) ;
+
+PrintStatementHead → ( PrintStatementHead ) | System . out
+
+ExpressionStatement → Expression ;
+
+ReturnStatement → return Expression? ;
+
+Expression → AssignmentExpression
+
+AssignmentExpression → LogicalOrExpression(= AssignmentExpression)?
+
+LogicalOrExpression → (LogicalOrExpression ||)? LogicalAndExpression
+
+LogicalAndExpression → (LogicalAndExpression &&)? EqualityExpression
+
+EqualityExpression → (EqualityExpression(== | !=))? RelationalExpression
+
+RelationalExpression → (RelationalExpression(< | <= | > | >=))?
+
+AdditiveExpression → (AdditiveExpression(+ | -))?
+
+MultiplicativeExpression → (MultiplicativeExpression(* | / | %))?
+
+UnaryExpression → PrimaryExpression | (! | -)
+
+PrimaryExpression → null
+
+| false
+
+| true
+
+| INTEGER_LITERAL
+
+| MethodInvocationExpression
+
+| FieldAccessExpression
+
+| LocalVariableReferenceExpression
+
+| this
+
+| ( Expression )
+
+| NewObjectExpression
+
+MethodInvocationExpression → (PrimaryExpression .)? IDENT(ExpressionList?)
+
+ExpressionList → Expression(, Expression)*
+
+FieldAccessExpression → (PrimaryExpression .)? IDENT
+
+LocalVariableReferenceExpression → IDENT
+
+NewObjectExpression → new IDENT ( )
+
+## References ##
+https://tomassetti.me/parsing-in-java/
+https://www.youtube.com/watch?v=bxpc9Pp5pZM
+https://blog.eduonix.com/java-programming-2/write-parser-java/
+https://www.infoworld.com/article/2076874/lexical-analysis-and-java--part-1.html
+https://www.infoworld.com/article/2077611/lexical-analysis--part-2---build-an-application.html
+https://github.com/Francesco182g/Lexical-Analyzer-1
+https://github.com/MarcosSpessatto/Lexical-Analyzer-Java
