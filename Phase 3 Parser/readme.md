@@ -333,7 +333,6 @@ FieldAccessExpression → (PrimaryExpression .)? IDENT
 LocalVariableReferenceExpression → IDENT
 
 NewObjectExpression → new IDENT ( )
-
 ## References ##
 https://tomassetti.me/parsing-in-java/
 
