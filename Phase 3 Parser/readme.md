@@ -336,9 +336,15 @@ NewObjectExpression → new IDENT ( )
 
 ## References ##
 https://tomassetti.me/parsing-in-java/
+
 https://www.youtube.com/watch?v=bxpc9Pp5pZM
+
 https://blog.eduonix.com/java-programming-2/write-parser-java/
+
 https://www.infoworld.com/article/2076874/lexical-analysis-and-java--part-1.html
+
 https://www.infoworld.com/article/2077611/lexical-analysis--part-2---build-an-application.html
+
 https://github.com/Francesco182g/Lexical-Analyzer-1
+
 https://github.com/MarcosSpessatto/Lexical-Analyzer-Java
