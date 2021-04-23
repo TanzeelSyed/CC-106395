@@ -200,7 +200,7 @@ STATIC ="static"
 
 PRIVATE ="private"
 
-### Brackets
+### Brackets and Tokens: ###
 
 LPAREN = "("
 
@@ -214,8 +214,6 @@ LCURLY = "{"
 
 RCURLY = "}"
 
-### Special Tokens
-
 EOT = "$"
 
 ERRORS = ""
@@ -223,7 +221,6 @@ ERRORS = ""
 ERROR COMMENTS = "<unclosed_comments>"
 
 WHITESPEACES = " "
-
 
 ## What Issues we faced? ##
 
