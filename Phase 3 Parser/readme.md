@@ -225,25 +225,13 @@ ERROR COMMENTS = "<unclosed_comments>"
 WHITESPEACES = " "
 
 
-# Problems Faced
+## What Issues we faced? ##
 
-These are the following problems that we have faced in our project.
+## Issue: Not Much Familar with Java:
+We faced several issues during performing this project because we are not familar much about Java and Mini Java but we tried our best to do this. We took help to our seniors to perform this project. The reason behind selection of this language i can say that the concepts of Java are much easier which are relatable too. An object oriented property makes it a flexible, system modular, and extensible programming language.
 
-## Problem 1: No Background of Java
-So before this project both of us had zero knowledge about java. Our domain area is react native (javaScript) but we though that why not give it a shot and do something that we haven't done before. So we decided to take up on MiniJava as it's a smaller component of Java language. Initially we had many difficulties like we didn't knew how it works, how can we declare variable and methods, its syntax and so many things like this. But once we learned and got basic knowledge about it then we had no such difficulty. 
+## Issue: Yacc Problems:
+It is very difficult to work on Yacc because facing a lots of error and we are working very first time on it. Not much content available on internet to solve error issues of Yacc. somehow we managed to solve all those errors but still things are lacking we did our best enough to work on this platform.
 
-## Problem 2: Github
-didn't knew how to use this platform Github as none of our teacher asked to submit projects on Github so it was my first time using it. Initially i didn't knew how to make repositiories and such things. I had very difficulties in formatting the content in Files and making repository etc. but my other group member had hands on it so he helped in using this platform. And now i have learned how to use Github.  
-
-## Problem 3: Installation of Flex in Linux
-When we created our lexical analyzer we had many issues in its compilation. Our lex file wasn't created because of installation issues in linux, so after trying so many times finally we got succeed.
-
-## Problem 4: YACC Compilation
-When we merged our lex and yacc file means (.l & .y extension file). We had so many errors in it's compilations like (undefined reference or function in y file, redeifintions, declaration and so on). We had no idea about them because we never worked on such environment. It's our first time when we designed parser so most of the errors were new to us so we researched, took guide from videos and book and then finally after spending several hours on it we resolved them.
-
-## References
-
-- [Github] (https://github.com/starbops/MJP)
-- [Website] (https://courses.engr.illinois.edu/cs421/sp2012/mps/MP3/mp3.pdf)
-- [Webiste] (https://www.mrcoder.org/en/compiler/minijava/introduction/)
-- [Tutorial] (https://www.youtube.com/watch?v=246sQu7ty00&t=581s) 
+## Issue: Flex Problems:
+What to do with error handling, and how to make it all work together. Working on flex, also became a nightmare for us. No clue, no info and not much enough content available on internet to resolve things but trying our best to manage things, asking with seniors to solve the issue and watching tutorials on youtube.
