@@ -1,24 +1,3 @@
-/*Bison output & Bison version  */
-#define YYBISON 30705
-
-/* Bison version */
-#define YYBISON_VERSION "3.7.5"
-
-/* Skeleton name.  */
-#define YYSKELETON_NAME "yacc.c"
-
-/* Pure parsers.  */
-#define YYPURE 0
-
-/* Push parsers.  */
-#define YYPUSH 0
-
-/* Pull parsers.  */
-#define YYPULL 1
-
-/* First part of user prologue.  */
-#line 1 "parser.y"
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
