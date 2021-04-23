@@ -11,11 +11,11 @@ StdID | Name
 The primary goal of this project was to comprehend the significance of a compiler. It is  important to understand how to use a compiler and what goes on inside the tool we're using. It provides the ability to create and deploy our own domain-specific language. The compiler's architecture allows for the use of formal methods that are seldom used in other programming languages.
 Compiler analysis is an effective tool to get acquainted with systematic methods. As a way, studying compiler will give us a lot. That was also the aim of our project; we learned how to use a subset of a broad language, as well as its specifications and CFG. We also learned how to build a lexical analyzer and build a parser using lexical specifications.
 
-## Language used in parser
+## Sample Language Used ##
 
 We select Minijava for design parser. In essence, the minijava language is a more condensed and updated version of java. It is a programming language based on the Java language of Sun Microsystems. The heart of MiniJava is a condense version of the standard Java release to relieve fears that starting people feel in the face of a Java environment that is too complex. The purpose of a MiniJava program is determined by its significance in Java. Any MiniJava program is a Java program that completely works according to Java semanticization. It supports classes and minimal heritage, basic types of data and a few hierarchical control builders. MiniJava program is a single file with no package statement or imports. It consists of a Java class or more. There are no interface classes, sub-classes or nested classes in the classes that are basic and fast.
 
-## Implementation
+## Implementation (Code Example)
 
 ```java
 `
