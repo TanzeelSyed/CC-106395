@@ -9,6 +9,7 @@ StdID | Name
 ## Language Selected ##
 We selected "Mini Java" for our Project in Compiler Contruction which is offered in Spr-21
 <!--Replace with your choice-->
+
 ## About Mini Java: ##
 The sense of a Java programme determines the intent of a MiniJava programme. Every MiniJava programme is a complete Java programme that adheres to Java semantics. It has a few hierarchical control constructors, as well as classes and restricted inheritance. It also has simple data types and simple data types.
 Each MiniJava programme consists of a single file with no package declarations or imports. One or more Java classes make up this object. 
