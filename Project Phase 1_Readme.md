@@ -31,7 +31,7 @@ There are no interface classes, subclasses, or nested classes in the classes, ma
     class NewClass {
         int [] x;
         public int cal() {
-            int [] y;   //local variable 
+            int [] y;
             x = new int [20];
             y = new int [76];
             y[0] = 7;
